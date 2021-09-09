@@ -25,4 +25,10 @@ class LargestPalindromeProduct
 
         @answer = palindromeProducts.pop()
     end
+
+    def isPalindrome(number)
+        string = number.to_s
+    
+        string.eql?(string.reverse())
+    end
 end
